@@ -1,0 +1,18 @@
+insightface>=0.7.3
+onnxruntime>=1.15.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+mediapipe>=0.10.0
+pyzbar>=0.1.9
+qrcode[pil]>=7.4.2
+streamlit>=1.28.0
+pandas>=2.0.0
+plotly>=5.17.0
+matplotlib>=3.7.0
+
+# Note: Do NOT install opencv-python-headless - it conflicts with opencv-python
+# and doesn't support GUI functions like cv2.imshow()
+# Note: For Windows, ZBar library must be installed separately for pyzbar to work
+# Download from: https://github.com/mchehab/zbar or use: pip install pyzbar[scripts]
+
